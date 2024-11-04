@@ -1,24 +1,26 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+### NAME : SRI YALINE R
+### REG NO : 24006194
+# EXPERIMENT 2 : IMPLEMENTATION
 
-**AIM:**
+# AIM
 
 To implement the given logic function verify its operation in Quartus using Verilog programming.
 
-F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D 
+F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
-**Equipment Required:**
+# EQUIPMENTS REQIURED
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
+Software – Quartus prime
 
-**Theory**
+# THEORY
 
-**Logic Diagram**
+Implementing Boolean functions in Verilog HDL (Hardware Description Language) involves translating the simplified Boolean expressions into Verilog code to describe the behavior of digital circuits. The basic building blocks in Verilog is module. The module represent a combinational circuit. Use logical operators (&, |, ~, ^) to implement Boolean functions directly. Use built-in gate primitives for basic functions. Use University program VWF to verify the functionality of your Verilog modules. Create waveform and check outputs against expected results.
 
-**Procedure**
+# PROCEDURE
 
 1.	Type the program in Quartus software.
 
@@ -31,22 +33,23 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
-
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
+# PROGRAM
+![PROGRAM](https://github.com/user-attachments/assets/8230fdf1-c55c-4dda-8662-e52fcd00fca9)
 
 
-**RTL realization**
+# TRUTH TABLE
+![TRUTH TABLE](https://github.com/user-attachments/assets/eff2981c-faab-417e-954a-274223bb73f4)
 
-**Output:**
 
-**RTL**
+# RTL
+![RTL](https://github.com/user-attachments/assets/5bedd26c-f340-4ae5-a414-264fdb022051)
 
-**Timing Diagram**
 
-**Result:**
+# TIMING DIAGRAM
+![TIMING](https://github.com/user-attachments/assets/733e01a0-3600-477e-8fea-d13c130f8718)
 
-Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
+
+# RESULT
+
+Thus the given logic functions are implemented and their operations are verified using Verilog programming.
 
